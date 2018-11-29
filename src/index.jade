@@ -1,0 +1,45 @@
+extends layout.jade
+block content
+    .p-index
+        .container
+            ul
+                li.m-card
+                    .m-card__brief.h-flex.h-justify-content-between
+                        input#a(type="checkbox")
+                        .m-card__brief__info
+                            h2 Type Something Here…
+                            ul.h-flex
+                                li 
+                                    i.far.fa-calendar-alt 
+                                    |&nbsp;5/14
+                                li 
+                                    i.far.fa-file
+                                li
+                                    i.far.fa-comment
+                        ul.m-card__brief__operate.h-flex
+                            li.m-card__brief__operate__star
+                                i.far.fa-star
+                            li.m-card__brief__operate__edit
+                                i.far.fa-edit
+                    .m-card__detail
+                        .m-card__detail__deadline
+                            i.far.fa-calendar-alt 
+                            label(for="") 截止日期
+                            .m-card__detail__group
+                                input(type="text")
+                                input(type="text")
+                        .m-card__detail__file
+                            i.far.fa-file
+                            label(for="") 檔案
+
+                        .m-card__detail__comment
+                            i.far.fa-comment
+                            label(for="") 紀錄
+                            textarea#(name="", cols="30", rows="10")
+                        .m-card__detail__btns
+                            button 取消
+                            button 新增
+
+                //- .m-card_important
+                //- .m-card_complete
+

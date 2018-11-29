@@ -1,0 +1,19 @@
+{
+  "name": "thef2e-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-compass": "^2.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.2.1"
+  }
+}

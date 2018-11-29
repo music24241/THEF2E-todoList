@@ -1,0 +1,49 @@
+.m-card
+    background: $concrete
+    &__brief
+        padding: 24px 32px
+        padding-bottom: 16px
+        &:not(:first-child)
+            margin-top: 24px
+        input[type="checkbox"]
+            width: 24px
+            height: 24px
+            cursor: pointer
+        h2
+            @extend %title
+        &__info
+            margin-right: auto
+            margin-left: 16px
+            ul
+                margin-top: 16px
+                li
+                    &:not(:first-child)
+                        margin-left: 16px
+        &__operate
+            li
+                font-size: 22px
+                &:not(:first-child)
+                    margin-left: 32px
+                i
+                    cursor: pointer
+            &__star
+            &__edit
+    &__detail
+        padding: 24px 72px
+        label
+            @extend %subtitle
+            margin-right: 9px
+        &__deadline,&__file,&__comment
+            &:not(:first-child)
+                margin-top: 25px
+
+.m-card_complete
+    .m-card__brief
+        &__info
+            h2
+                text-decoration: line-through
+                color: #9B9B9B
+            ul
+                display: none !important
+.m-card_important
+    background: $peachCream

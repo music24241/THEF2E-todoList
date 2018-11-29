@@ -1,0 +1,26 @@
+body *
+    border: 1px solid black
+.l-header
+    height: 76px
+    width: 100%
+    background: $havelockBlue
+    color: $congressBlue
+    .container,ul
+        height: 100%
+    &__title_active
+        color: $white
+        border-bottom: 5px solid $congressBlue
+    li
+        @extend %title
+        width: 160px
+        height: 100%
+        a
+            color: inherit
+            height: 100%
+            text-decoration: none
+            justify-content: center
+            transition: 0.2s
+            &:hover,&:active
+                color: $white
+                border-bottom: 5px solid $congressBlue
+            

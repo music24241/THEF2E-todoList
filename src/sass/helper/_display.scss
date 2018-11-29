@@ -1,0 +1,37 @@
+.h-none {
+    display: none !important;
+  }
+  
+  .h-inline {
+    display: inline !important;
+  }
+  
+  .h-inline-block {
+    display: inline-block !important;
+  }
+  
+  .h-block {
+    display: block !important;
+  }
+  
+  .h-table {
+    display: table !important;
+  }
+  
+  .h-table-row {
+    display: table-row !important;
+  }
+  
+  .h-table-cell {
+    display: table-cell !important;
+  }
+  
+  .h-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  
+  .h-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
